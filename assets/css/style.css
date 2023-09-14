@@ -44,6 +44,14 @@ border-color: orangered;}
 .quotes-container {}
 
 .features-container {}
+/*page headers */
+.page-header {
+    margin-bottom:0;
+    border-bottom: 0;
+    text-align:center;
+}
+
+page-header h2 {margin-top: 0;}
 
 /* Block dividers */
 
