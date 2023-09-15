@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red{background-color:red ;
+color:white;}
+
 /* Containers */
 
 
@@ -43,6 +48,8 @@ border-color: orangered;}
 
 .quotes-container {}
 
+.quotes .page-header {margin-bottom: 25px;}
+
 .features-container {}
 /*page headers */
 .page-header {
@@ -68,6 +75,12 @@ page-header h2 {margin-top: 0;}
 
 .block-divider--short {
     width: 35px;
+}
+
+/*content containers */
+.content-container {
+    padding-bottom:75px ;
+    padding-top: 75px;
 }
 /*nav bar stuff */
 .nav-alert-container {position: absolute;
@@ -136,3 +149,19 @@ font-weight: bold;}
     border-color: #df4929;
     color: white;
 }
+
+.feature{text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {margin-bottom: 20px;
+font-size: 45px;
+line-height: 45px;}
+
+.feature .btn {background-color: white;
+border-color: white;
+border-radius:15px ;
+min-width: 100px;
+font-weight:bold;
+margin-top: 10px;
+color:red}
